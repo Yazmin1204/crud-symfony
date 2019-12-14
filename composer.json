@@ -67,7 +67,7 @@
         "post-install-cmd": [
             "php artisan clear-compiled",
             "chmod -R 777 public/",
-            "@auto-scripts"
+            //"@auto-scripts"
         ],
         "post-update-cmd": [
             "@auto-scripts"
